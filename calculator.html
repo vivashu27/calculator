@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<title>calculator</title>
+<head>
+	<h><strong><mark>Calculator v4.0</mark></strong></h>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+<form>
+	<p id="res1"></p>
+	<br></br>
+	<p2>result.</p2>
+	<p1 id="res"></p1>
+	<br></br>
+
+	<input type="button" value="1" onclick="numbrs(1)" class="bttn">
+	<input type="button" value="2" onclick="numbrs(2)" class="bttn">
+	<input type="button" value="3" onclick="numbrs(3)" class="bttn">
+	<br></br>
+	<input type="button" value="4" onclick="numbrs(4)" class="bttn">
+	<input type="button" value="5" onclick="numbrs(5)" class="bttn">
+	<input type="button" value="6" onclick="numbrs(6)" class="bttn">
+	<br></br>
+	<input type="button" value="7" onclick="numbrs(7)" class="bttn">
+	<input type="button" value="8" onclick="numbrs(8)" class="bttn">
+	<input type="button" value="9" onclick="numbrs(9)" class="bttn">
+	<br></br>
+	<input type="button" value="0" onclick="numbrs(0)" class="bttn">
+	<br></br>
+	<input type="button" value="+" onclick="sum1()" class="bttn">
+	<input type="button" value="*" onclick="mult()" class="bttn">
+	<input type="button" value="-" onclick="subs()" class="bttn">
+	<input type="button" value="/" onclick="dive()" class="bttn">
+	<br></br>
+	<input type="button" value="clear" class="cls" onclick="cl()">
+
+	<input type="button" value="=" class="rest" onclick="result()">
+	<input type="button" value="<---" class="cls" onclick="reduce()">
+	
+</form>
+
+</body>
+<script src="./calc.js"></script>
+</html>
