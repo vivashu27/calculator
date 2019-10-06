@@ -1,0 +1,52 @@
+<style type="text/css">
+	.cls:hover
+	{
+		overflow:hidden;
+		background-color:white;
+	}
+	.rest:hover
+	{
+		overflow:hidden;
+		background-color:white;
+	}
+	.cls:active
+	{
+		background-color:lightblue;
+	}
+	.rest:active
+	{
+
+		background-color:lightblue;
+	}
+	.bttn:hover
+	{
+		overflow:hidden;
+		background-color:white;
+	}
+	.bttn:active
+	{
+		background-color:lightblue;
+	}
+	.cls
+	{
+		border:none;
+		color:black;
+		background-color:00FF00;
+		padding:15px 15px;
+	}
+	.rest
+	{
+
+		border:none;
+		color:black;
+		background-color:00FF00;
+		padding:15px 15px;
+	}
+	.bttn
+	{
+		border:none;
+		color:black;
+		background-color:00FF00;
+		padding:15px 15px;
+	}
+</style>
